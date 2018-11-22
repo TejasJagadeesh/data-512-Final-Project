@@ -84,7 +84,7 @@ I don’t have any specific hypothesis to test. However, I wish to analyze the d
 ## Data Preprocessing:
 I plan to extract the data from the excel spreadsheet using Python. Once the data is extracted, I plan to clean it by removing special characters like commas and then store the actual values in cases where the numbers are represented as thousands. Once I have the data preprocessed, I plan to store the data for OASDI and SSI in separate Python Dataframes for independent analysis. I then plan to combine/merge them for some comparative analysis.  
   
-# Tools
+## Tools:
 I plan to use Python Programming language for data extraction from the excel sheets and the processing. I plan to use matplotlib and seaborn libraries for visualizations. I plan to use Jupyter Python Notebooks for computing, analysis and presentation. I plan to document each of the research steps within the Jupyter Notebook for reproducibility.  
   
 # Deliverables
