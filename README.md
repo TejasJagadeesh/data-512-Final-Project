@@ -35,8 +35,8 @@ The information provided is:
 |Retired workers| Number |Number of beneficiaries who are Retired workers|
 |Disabled workers| Number |Number of beneficiaries who are Disabled workers|
 |Widow(er)s and parents| Number |Number of beneficiaries who are Widow(er)s and parents|
-|Spouses| Number |Number of beneficiaries who are Spouses|
-|Children| Number |Number of beneficiaries who are Children|
+|Spouses| Number |Number of beneficiaries who are Spouses of a worker who is retired or disabled|
+|Children| Number |Number of beneficiaries who are Children of a worker who is retired, deceased, or disabled|
 |All beneficiaries| Number |Total monthly benefits (thousands of dollars) for All beneficiaries|
 |Retired workers payments| Number |Total monthly benefits (thousands of dollars) for Retired Workers|
 |Widow(er)s and parents payments| Number |Total monthly benefits (thousands of dollars) for Widow(er)s and parents|
@@ -59,7 +59,7 @@ The information provided is:
 |Total recipients with OASDI|Number|Total Number of recipients who are receiving both SSI payments and Social Security benefits|
 |Number of OASDI beneficiaries aged 65 or older | Number | Total Number of beneficiaries aged 65 or older who are receiving both SSI payments and Social Security benefits |
   
-## Sources
+## Sources:
 The above data can be found in the following links:  
   
 | Year | Link |
@@ -70,19 +70,24 @@ The above data can be found in the following links:
 |2016|https://www.ssa.gov/policy/docs/factsheets/cong_stats/2016/index.html|
 |2017|https://catalog.data.gov/dataset/congressional-statistics-december-2017|
 
-## Licenses
-The data for years 2013, 2014 and 2017 are released under Creative Commons CCZero license (http://opendefinition.org/licenses/cc-zero/) as can be found in the links above. The sources for years 2015 and 2016 are not specifically provided in the source https://catalog.data.gov. However, the data for years 2015 and 2015 was available in the same root source as for years 2013, 2014 and 2017. Considering that the data for the years 2013, 2014 and 2017 were released under CCZero license, it can be assumed that the data for 2015 and 2016 is also convered under the same license since the nature of data is exactly the same. However, I'm validating if this assumption is ok to make. Else, I will disregard data for years 2015 and 2016 in my analysis.
+## Licenses:
+The data for years 2013, 2014 and 2017 are released under Creative Commons CCZero license (http://opendefinition.org/licenses/cc-zero/) as can be found in the links above. The sources for years 2015 and 2016 are not specifically provided in the source https://catalog.data.gov. However, the data for years 2015 and 2015 was available in the same root source as for years 2013, 2014 and 2017. Considering that the data for the years 2013, 2014 and 2017 were released under CCZero license, it can be assumed that the data for 2015 and 2016 is also covered under the same license since the nature of data is exactly the same. However, I'm validating if this assumption is ok to make. Else, I will disregard data for years 2015 and 2016 in my analysis.
   
-# Research Scope:
+# Research Scope
 I don’t have any specific hypothesis to test. However, I wish to analyze the data to see:  
 
-- Distribution of beneficiaries across US
-- Trends in the spending
-- Trends in distribution of beneficiaries across US
-- SSI vs. OASDI spending
+- Distribution of beneficiaries of OASDI and SSI across US.
+- Trends in the OASDI and SSI spending.
+- Trends in distribution of beneficiaries of OASDI and SSI across US.
+- Comparison of SSI vs. OASDI spending.
+  
+## Data Preprocessing:
+I plan to extract the data from the excel spreadsheet using Python. Once the data is extracted, I plan to clean it by removing special characters like commas and then store the actual values in cases where the numbers are represented as thousands. Once I have the data preprocessed, I plan to store the data for OASDI and SSI in separate Python Dataframes for independent analysis. I then plan to combine/merge them for some comparative analysis.  
   
 # Tools
-I plan to use Python Programming language for data extraction from the excel sheets and the processing. I plan to use matplotlib and seaborn libraries for visualizations. I plan to use Jupyter Python Notebooks for computing, analysis and presentation. I plan to document each of the research steps within the Jupyter Notebook for reproducibility.
-
+I plan to use Python Programming language for data extraction from the excel sheets and the processing. I plan to use matplotlib and seaborn libraries for visualizations. I plan to use Jupyter Python Notebooks for computing, analysis and presentation. I plan to document each of the research steps within the Jupyter Notebook for reproducibility.  
+  
+# Deliverables
+As part of this analysis, I plan to publish the results of my findings along with visualizations to support. I also plan to deliver a Jupyter Notebook with my analysis, visualizations and detailed steps on how to reproduce the analysis. I plan to publish to all of this in this GitHub Repository.
 
 
