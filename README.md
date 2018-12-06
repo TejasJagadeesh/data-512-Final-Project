@@ -59,6 +59,8 @@ The information provided is:
 |Total recipients with OASDI|Number|Total Number of recipients who are receiving both SSI payments and Social Security benefits|
 |Number of OASDI beneficiaries aged 65 or older | Number | Total Number of beneficiaries aged 65 or older who are receiving both SSI payments and Social Security benefits |
   
+US population data in numbers for the years 2013, 2014, 2015, 2016 and 2017.
+
 ## Sources:
 The above data can be found in the following links:  
   
@@ -69,9 +71,13 @@ The above data can be found in the following links:
 |2015|https://www.ssa.gov/policy/docs/factsheets/cong_stats/2015/index.html|
 |2016|https://www.ssa.gov/policy/docs/factsheets/cong_stats/2016/index.html|
 |2017|https://catalog.data.gov/dataset/congressional-statistics-december-2017|
+  
+Popultaion Data has been sourced from https://data.worldbank.org/indicator/SP.POP.TOTL?locations=US
 
 ## Licenses:
 The data for years 2013, 2014 and 2017 are released under Creative Commons CCZero license (http://opendefinition.org/licenses/cc-zero/) as can be found in the links above. The sources for years 2015 and 2016 are not specifically provided in the source https://catalog.data.gov. However, the data for years 2015 and 2015 was available in the same root source as for years 2013, 2014 and 2017. Considering that the data for the years 2013, 2014 and 2017 were released under CCZero license, it can be assumed that the data for 2015 and 2016 is also covered under the same license since the nature of data is exactly the same. However, I'm validating if this assumption is ok to make. Else, I will disregard data for years 2015 and 2016 in my analysis.
+
+Popultaion data has been released under CC BY-4.0 license (https://datacatalog.worldbank.org/public-licenses#cc-by).
   
 # Research Scope
 I don’t have any specific hypothesis to test. However, I wish to analyze the data to see:  
